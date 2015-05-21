@@ -1,10 +1,10 @@
 {
   "name": "mueller",
   "version": "1.0.0",
-  "description": "simple demonastration of Muller's Recurrence problem which demonstartes the floating point roundoff errors",
+  "description": "Simple demonastration of Muller's Recurrence problem which demonstartes the floating point roundoff errors",
   "main": "big.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "keywords": [
     "mueller",
