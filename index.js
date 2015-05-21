@@ -48,7 +48,6 @@ function calc() {
 	for (var i = 0; i < N; i++) {
 		console.log('%d\t%d', i, x(i));
 	}
-
 }
 
 calc();

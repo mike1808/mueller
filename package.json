@@ -6,6 +6,11 @@
   "scripts": {
     "start": "node index.js"
   },
+  "repository" : { 
+    "type": "git",
+    "url": "mike1808/mueller"
+  },
+
   "keywords": [
     "mueller",
     "recurrence",
