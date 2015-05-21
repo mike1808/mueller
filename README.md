@@ -1,6 +1,6 @@
 # mueller
 
-Simple demonastration of [Muller's Recurrence](http://latkin.org/blog/2014/11/22/mullers-recurrence-roundoff-gone-wrong/) problem which demonstartes the floating point roundoff errors.
+Simple demonastration of [Muller's Recurrence](http://latkin.org/blog/2014/11/22/mullers-recurrence-roundoff-gone-wrong/) problem which shows the floating point roundoff errors.
 
 ## Use
 
