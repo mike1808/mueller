@@ -1,4 +1,4 @@
-# mueller
+# muller
 
 Simple demonastration of [Muller's Recurrence](http://latkin.org/blog/2014/11/22/mullers-recurrence-roundoff-gone-wrong/) problem which shows the floating point roundoff errors.
 
@@ -6,7 +6,7 @@ Simple demonastration of [Muller's Recurrence](http://latkin.org/blog/2014/11/22
 
 You can get this example via NPM
 ```sh
-npm install mueller
+npm install muller
 ```
 
 This example is implemented using in 3 ways:
