@@ -1,8 +1,12 @@
 var BigNumber = require('bignumber.js');
 var Decimal = require('decimal.js');
 
+
 var lib = process.argv[2];
 var isNative = lib !== 'big' && lib !== 'dec';
+
+var decimalPlaces = process.argv[3] && parseInt(process.argv[3])|| 20;
+BigNumber.config({ DECIMAL_PLACES:  decimalPlaces})
 
 var const108 = getNumber(108);
 var const815 = getNumber(815);

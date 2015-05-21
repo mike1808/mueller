@@ -17,15 +17,16 @@ This example is implemented using in 3 ways:
 In order to run it this example use the following command
 
 ```sh
-node index.js [library]
+node index.js [library] [decimal_places]
 ```
 
-Library can be "dec" or "big" for decimal.js or bignumber.js respectively. If it isn't provided native Number is used.
+library can be "dec" or "big" for decimal.js or bignumber.js respectively. If it isn't provided native Number is used.
 
+decimal_places is used for bignumber.js and represents the maximum number of decimal places of the results of operations. (default values is 20)
 
 ## Benchmarks
 
-The tests were done using Intel® Core™ i7-4702MQ @ 2.20 Ghz
+The tests were done using Intel® Core™ i7-4702MQ @ 2.20 Ghz with default number of decimal places for bignumber.js
 
 ### native
 ```sh
